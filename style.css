@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+
+}
+
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.fbBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 3rem;
+}
+
+.container1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 4rem;
+    
+}
+
+.info{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.container1 p{
+    font-size: 3rem;
+    max-width: 12rem;
+    font-weight: 600;
+    color: black;
+}
+
+p span{
+    color: rgb(0, 92, 252);
+}
+
+.container1 .fbLogo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-left: 2px solid rgba(0, 0, 0, 0.158);
+    
+}
+
+.btns{
+    width: 70%;
+}
+
+.head2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+input{
+    height: 4rem;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    flex: 1;
+     margin-bottom: 2rem;
+
+}
+
+.logIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.login{
+    background-color: rgb(0, 89, 255);
+    width: 100%;
+    padding: 1.4rem;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 50rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.login:hover{
+    background-color: rgb(0, 55, 255);
+}
+
+.forgot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgotPass{
+    width: 100%;
+    padding: 1.4rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.create{
+    width: 100%;
+    border: 1px solid blue;
+    padding: 1.4rem;
+    border-radius: 50rem;
+    text-align: center;
+    color: black;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.create:hover{
+    background-color: rgb(0, 106, 255);
+    color: white;
+    border: none;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meta{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+footer{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: 2px solid rgba(0, 0, 0, 0.191);
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.421);
+}
+
+footer a{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.396);
+}
+
+.class1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+}
+
+.class2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
